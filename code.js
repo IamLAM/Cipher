@@ -15,9 +15,11 @@ function rot13(str) {
             pos = alphabet.indexOf(w);
             console.log(pos);
 
+        } else {
+            console.log("space or number or signal");
         }
         i++;
     }
 }
 
-console.log(rot13("SERR PBQR PNZC"));
+console.log(rot13("SERR PBQR! PNZC"));
