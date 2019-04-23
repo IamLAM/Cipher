@@ -21,6 +21,8 @@ function rot13(str) {
         i++;
     }
     console.log(ca);
+    str = ca.join("");
+    console.log(str);
 }
 
-console.log(rot13("SERR PBQR PNZC"));
+console.log(rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT."));
